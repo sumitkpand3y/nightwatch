@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="vatm"
+    errors="1" failures="0" hostname="" id="" package="vatm" skipped="0"
+    tests="1" time="24.33" timestamp="">
+  
+    <testcase name="projects test" classname="vatm" time="24.33" assertions="0">
+    <error message="An error occurred while running .click() command on &lt;#list-item-263 &gt; div &gt; div:nth-child(2) &gt; div:nth-child(4) &gt; div &gt; div &gt; div &gt; div &gt; div:nth-child(1)&gt;: Timed out while waiting for element &#34;#list-item-263 &gt; div &gt; div:nth-child(2) &gt; div:nth-child(4) &gt; div &gt; div &gt; div &gt; div &gt; div:nth-child(1)&#34; with &#34;css selector&#34; to be present for 5000 milliseconds." type="error"><![CDATA[
+    Error
+    at Object.projects test (/Users/sumitkumarpandey/Desktop/SumitPandey/nightwatch/tests/vatm-test/vatm.js:18:8)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError: An error occurred while running .click() command on &lt;#list-item-263 &gt; div &gt; div:nth-child(2) &gt; div:nth-child(4) &gt; div &gt; div &gt; div &gt; div &gt; div:nth-child(1)&gt;: Timed out while waiting for element &#34;#list-item-263 &gt; div &gt; div:nth-child(2) &gt; div:nth-child(4) &gt; div &gt; div &gt; div &gt; div &gt; div:nth-child(1)&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+       at Object.projects test (/Users/sumitkumarpandey/Desktop/SumitPandey/nightwatch/tests/vatm-test/vatm.js:18:8)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
